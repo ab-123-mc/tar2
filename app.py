@@ -1,4 +1,4 @@
-import sqlite3 # Aunque no se usa directamente en este archivo (se usa en database.py), es una buena práctica incluirlo si interactúa con DB.
+import sqlite3 
 from database import connect_db, create_table, DATABASE_NAME
 
 # --- Funciones CRUD ---
